@@ -37,6 +37,7 @@ def write_file_list(file_list: List[str], path: str) -> None:
         for file in file_list:
             f.write('\n')
             
+            # this is for test
 if __name__ == "__main__":
     path = './'
     german_path = './german.txt'
